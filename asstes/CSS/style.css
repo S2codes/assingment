@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.navbar-toggler {
+    font-size: 3.25rem!important;
+}
+.row{
+    margin: 0;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topPara{
+    font-size: 1.85rem;
+    color: rgba(47, 47, 47, 0.662);
+}
+.heading{
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.para{
+    font-size: 1.65rem;
+    color: blue;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #f4f4f4;
+    border-radius: 11px;
+}
+
+
+
+.logo{
+    width: 5.5rem;
+    object-fit: cover;
+}
+
+.nav-link{
+    color: red!important;
+    font-size: 1.8rem;
+    transition: 0.3s all ease-in;
+}
+.nav-link:hover{
+    font-weight: 500;
+}
+
+.aboutSec{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 45rem;
+}
+.about-right{
+    width: 50%;
+    /* border: 2px solid blue; */
+    align-items: flex-end;
+}
+.about-right .para{
+    color: #0d6efd;
+    text-align: right;
+}
+
+/* product  */
+.product{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-item{
+    width: 33%;
+    /* border: 2px solid rebeccapurple; */
+    cursor: pointer;
+    overflow: hidden;
+}
+.product-item img{
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+    transition: 0.4s all ease;
+}
+
+.product-item img:hover{
+    transform: scale(1.4);
+}
+
+.prduct-video{
+    width: 33%;
+}
+
+.serviceSec{
+    background-color: #f4f4f4;
+}
+
+.serviceType{
+    font-size: 2.3rem;
+}
+
+.services-left ul li{
+    font-size: 1.7rem;
+    list-style: none;
+}
+.bi-plugin{
+    font-size: 2.2rem;
+    color: #0d6efd;
+}
+.contact-list{
+    list-style: none;
+}
+.contact-list li{
+    font-size: 1.7rem;
+}
+
+.bi-whatsapp{
+    font-size: 2.8rem;
+    color: #075E54;
+}
+
+.address h6{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.address p{
+    font-size: 1.7rem;
+}
+
+.footertext{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px){
+    .aboutSec{
+        flex-direction: column;
+    } 
+    .about-left{
+        width: 100%;
+        height: auto;
+    }
+    .about-right{
+        width: 100%;
+        align-items: flex-start;
+    }
+    .about-right .para{
+        text-align: left;
+    }
+    .product-item{
+        width: 100%;
+    }
+    .v1, .v2{
+        width: 50%;
+    }
+    .v3{
+        width: 100%;
+    }
+
+}
+
+
